@@ -260,7 +260,8 @@ git remote add origin git@github.com:kitty20200606/learngit.git
 
 添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，
 但是origin这个名字一看就知道是远程库。
-
+ （origin 改成别的名字比较好，这样可以github 和 gitee都关联）
+ 
 14 本地库 push 到远程库
 下一步，就可以把本地库的所有内容推送到远程库上：
 $ git push -u origin master
